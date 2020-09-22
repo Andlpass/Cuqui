@@ -1,0 +1,57 @@
+h2{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    color: rgb(173, 67, 67);
+    margin-top: 7px;
+    border: rgb(173, 67, 67) solid 3px;
+    padding: 5px;
+}
+
+.headerSections{
+    height: 300px;
+}
+.logoPages{
+     height: 300px;
+     width: auto;
+}
+main{
+    position: center;
+    padding: 15px;
+    margin-top: 70px;
+    background-color:rgba(128, 128, 128, 0.493) ;
+    p{font-family: 'Montserrat', sans-serif;}
+    .pad-1{ padding-top: 10px;}
+}
+
+/*CONTACTO*/
+form{
+    border: rgb(173, 67, 67) solid 3px;
+}
+button{
+    background-color: rgba(128, 128, 128, 0);
+    padding: 5px;
+    margin: 10px;
+    border: rgb(173, 67, 67) solid 3px;
+}
+input{
+    margin: 10px;
+    border-radius: 3px;
+    background-color: rgba(128, 128, 128, 0);
+    border: rgb(173, 67, 67) solid 3px;
+    color: black;
+}
+textarea{
+    height: 200px;
+    min-height: 200px;
+    width: 80%;
+    background-color: rgba(128, 128, 128, 0);
+    border: rgb(173, 67, 67) solid 3px;
+}
+#email{
+    width: 100%;
+
+}
+.email{
+    margin-left: 10px;
+    margin-right:10px ;
+}

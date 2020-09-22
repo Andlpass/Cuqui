@@ -1,0 +1,150 @@
+.logoIndex {
+  height: 400px;
+  width: auto;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: white solid 1px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.headerIndex {
+  width: 100%;
+  margin: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  color: #ad4343;
+  margin-top: 7px;
+  border: #ad4343 solid 3px;
+  padding: 5px;
+}
+
+.headerSections {
+  height: 300px;
+}
+
+.logoPages {
+  height: 300px;
+  width: auto;
+}
+
+main {
+  position: center;
+  padding: 15px;
+  margin-top: 70px;
+  background-color: rgba(128, 128, 128, 0.493);
+}
+
+main p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+main .pad-1 {
+  padding-top: 10px;
+}
+
+/*CONTACTO*/
+form {
+  border: #ad4343 solid 3px;
+}
+
+button {
+  background-color: rgba(128, 128, 128, 0);
+  padding: 5px;
+  margin: 10px;
+  border: #ad4343 solid 3px;
+}
+
+input {
+  margin: 10px;
+  border-radius: 3px;
+  background-color: rgba(128, 128, 128, 0);
+  border: #ad4343 solid 3px;
+  color: black;
+}
+
+textarea {
+  height: 200px;
+  min-height: 200px;
+  width: 80%;
+  background-color: rgba(128, 128, 128, 0);
+  border: #ad4343 solid 3px;
+}
+
+#email {
+  width: 100%;
+}
+
+.email {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+button:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+body {
+  height: auto;
+  width: 100%;
+  max-height: auto;
+  background-color: black;
+}
+
+section {
+  position: absolute;
+  width: 100%;
+}
+
+header {
+  position: center;
+}
+
+ul {
+  height: 100%;
+  padding: auto;
+}
+
+ul li:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0,8s;
+  transition: 0,8s;
+}
+
+ul a {
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-family: 'Montserrat Alternates', sans-serif;
+  padding: 3px;
+  padding-left: 17px;
+  padding-right: 17px;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+ul a:hover {
+  background-color: #ad4343;
+  text-decoration: none;
+  color: #4b4a4a;
+}
+
+footer {
+  position: bottom;
+}
+
+.img {
+  height: 350px;
+  width: auto;
+  border-radius: 25px;
+}
+/*# sourceMappingURL=style.css.map */
