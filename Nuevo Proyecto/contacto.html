@@ -13,11 +13,11 @@
 </head>
 <body>
  
-        <header class="container headerSections">
+        <header class=" headerSections">
             <div class="row d-flex justify-content-center">
                 <img src="Imagenes\logo.png" alt="logo" class="logoPages" >
             </div>
-            <div class="row d-flex justify-content-center">
+            <div class="row d-flex justify-content-center navBlack">
                 <ul class="nav d-flex justify-content-center">
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="la-cuqui.html">La Cuqui</a></li>
@@ -28,23 +28,31 @@
             </div>
         </header>   
         <main class="container">
-            <form >
-                <div class="row">
-                    <div class="col"><input class="form-control" type="text" placeholder="Nombre"></div>
-                    <div class="col"><input class="form-control" type="text" placeholder="Apellido"></div>
-                </div>            
-                <div class="form-group">
-                    <input type="email" class="form-control" id="mail" placeholder="nombre@example.com">
+            <div class="row">
+                <div class="col-sm d-flex justify-content-center align-items-center">
+                    <h2>CONTACTO</h2>
                 </div>
-                <div class="row justify-content-center">
-                    <textarea name="comentarios" id="comentarios" cols="60" rows="10" class="overflow-auto textarea">
-                    </textarea>
+                <div class="col-sm">
+                    <form>
+                        <div class="container">
+                            <div class="row d-flex justify-content-center">
+                                <input type="text" id="nombre" placeholder="Nombre">
+                                <input type="text" id="apellido" placeholder="Apellido">
+                            </div>
+                            <div class="row d-flex justify-content-center email" id="mail">
+                                <input type="email" placeholder="email" id="email" >
+                            </div>
+                            <div class="row d-flex justify-content-center">
+                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                            </div>
+                            <div class="row d-flex justify-content-center">
+                                <button type="submit">Enviar</button>
+                                <button type="reset">Borrar</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-                <div class="row justify-content-center">
-                    <button type="submit" class="">Enviar</button>
-                    <button type="reset" class="">Borrar</button>
-                </div>
-            </form>
+            </div>
                 
             
 
