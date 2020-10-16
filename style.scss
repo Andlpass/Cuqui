@@ -2,54 +2,35 @@
 @import 'index', 'variables','fuentes','pages','mixins','animations';
 //PARTES DEL ESQUELETO
 
-body{
-    height: auto;
-    width: 100%;
-    max-height: auto;
-    background-color: black;
-}
-section{
-    position: absolute;
-    width: 100%;
-}
-header{
-    position: center ;
-}
-ul{
-    height: 100%;
-    padding: auto;
-  
-    li:hover{        
-         transform: scale(1.1);
-         transition: 0,8s;
-        }
-    a{
-      letter-spacing: 1px;
-      text-decoration: none;
-      font-family: 'Montserrat Alternates', sans-serif;
-      padding: 3px;
-      padding-left: 17px;
-      padding-right: 17px;
-      color: rgb(255, 255, 255);
-      transition: 0.5s;
 
-    }
-    a:hover{ background-color: $navhover;
-        text-decoration: none;
-        color: rgb(75, 74, 74);
-
-    }
-}
-
-
-
-footer{
-    position: bottom;
 
   
-  
+li:hover{        
+
+     transition: 0,8s;
 }
+a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 3px;
+    padding-left: 17px;
+    padding-right: 17px;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+
+}
+a:hover{ background-color: $navhover;
+    text-decoration: none;
+    color: rgb(75, 74, 74);
+
+}
+
+
+
+
+
 //MIXINS
 .img{
-    @include images(350px,25px);
+    @include images(350px,5px);
 }

@@ -1,15 +1,27 @@
 h2{
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
-    color: rgb(173, 67, 67);
+    font-size: 40px;
+    color:black;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: black solid 3px;
+    padding: 5px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    color:black;
     margin-top: 7px;
-    border: rgb(173, 67, 67) solid 3px;
+    border: black solid 3px;
     padding: 5px;
 }
 
 .headerSections{
     height: 300px;
+    background-color: black;
 }
+.navBlack{background-color: black;}
 .logoPages{
      height: 300px;
      width: auto;
@@ -18,26 +30,32 @@ main{
     position: center;
     padding: 15px;
     margin-top: 70px;
-    background-color:rgba(128, 128, 128, 0.493) ;
+    background-color:white ;
     p{font-family: 'Montserrat', sans-serif;}
     .pad-1{ padding-top: 10px;}
 }
 
+/*Slides*/
+.slideStyle{
+    width: 400px;
+    overflow: hidden;
+}
+
 /*CONTACTO*/
 form{
-    border: rgb(173, 67, 67) solid 3px;
+    border: black solid 3px;
 }
 button{
     background-color: rgba(128, 128, 128, 0);
     padding: 5px;
     margin: 10px;
-    border: rgb(173, 67, 67) solid 3px;
+    border: black solid 3px;
 }
 input{
     margin: 10px;
     border-radius: 3px;
     background-color: rgba(128, 128, 128, 0);
-    border: rgb(173, 67, 67) solid 3px;
+    border: black solid 3px;
     color: black;
 }
 textarea{
@@ -45,7 +63,7 @@ textarea{
     min-height: 200px;
     width: 80%;
     background-color: rgba(128, 128, 128, 0);
-    border: rgb(173, 67, 67) solid 3px;
+    border: black solid 3px;
 }
 #email{
     width: 100%;

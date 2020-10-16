@@ -17,17 +17,39 @@ h1 {
   margin-right: 0px;
 }
 
+.frases {
+  font-size: 30px;
+  letter-spacing: 10px;
+  text-shadow: grey 2px 1px;
+}
+
 h2 {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
-  color: #ad4343;
+  font-size: 40px;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border: black solid 3px;
+  padding: 5px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  color: black;
   margin-top: 7px;
-  border: #ad4343 solid 3px;
+  border: black solid 3px;
   padding: 5px;
 }
 
 .headerSections {
   height: 300px;
+  background-color: black;
+}
+
+.navBlack {
+  background-color: black;
 }
 
 .logoPages {
@@ -39,7 +61,7 @@ main {
   position: center;
   padding: 15px;
   margin-top: 70px;
-  background-color: rgba(128, 128, 128, 0.493);
+  background-color: white;
 }
 
 main p {
@@ -50,23 +72,29 @@ main .pad-1 {
   padding-top: 10px;
 }
 
+/*Slides*/
+.slideStyle {
+  width: 400px;
+  overflow: hidden;
+}
+
 /*CONTACTO*/
 form {
-  border: #ad4343 solid 3px;
+  border: black solid 3px;
 }
 
 button {
   background-color: rgba(128, 128, 128, 0);
   padding: 5px;
   margin: 10px;
-  border: #ad4343 solid 3px;
+  border: black solid 3px;
 }
 
 input {
   margin: 10px;
   border-radius: 3px;
   background-color: rgba(128, 128, 128, 0);
-  border: #ad4343 solid 3px;
+  border: black solid 3px;
   color: black;
 }
 
@@ -75,7 +103,7 @@ textarea {
   min-height: 200px;
   width: 80%;
   background-color: rgba(128, 128, 128, 0);
-  border: #ad4343 solid 3px;
+  border: black solid 3px;
 }
 
 #email {
@@ -92,38 +120,15 @@ button:hover {
           transform: scale(1.2);
 }
 
-body {
-  height: auto;
-  width: 100%;
-  max-height: auto;
-  background-color: black;
-}
-
-section {
-  position: absolute;
-  width: 100%;
-}
-
-header {
-  position: center;
-}
-
-ul {
-  height: 100%;
-  padding: auto;
-}
-
-ul li:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+li:hover {
   -webkit-transition: 0,8s;
   transition: 0,8s;
 }
 
-ul a {
+a {
   letter-spacing: 1px;
   text-decoration: none;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 3px;
   padding-left: 17px;
   padding-right: 17px;
@@ -132,19 +137,15 @@ ul a {
   transition: 0.5s;
 }
 
-ul a:hover {
-  background-color: #ad4343;
+a:hover {
+  background-color: white;
   text-decoration: none;
   color: #4b4a4a;
-}
-
-footer {
-  position: bottom;
 }
 
 .img {
   height: 350px;
   width: auto;
-  border-radius: 25px;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=style.css.map */
